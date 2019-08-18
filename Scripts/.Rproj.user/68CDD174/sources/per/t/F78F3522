@@ -1,0 +1,25 @@
+{
+    "collab_server" : "",
+    "contents" : "",
+    "created" : 1566111830299.000,
+    "dirty" : false,
+    "encoding" : "UTF-8",
+    "folds" : "",
+    "hash" : "3748110027",
+    "id" : "F78F3522",
+    "lastKnownWriteTime" : 1566116801,
+    "last_content_update" : 1566116801816,
+    "path" : "C:/Bases - Hackapan/Scripts/script_final_grooming.R",
+    "project_path" : "script_final_grooming.R",
+    "properties" : {
+        "cursorPosition" : "537,35",
+        "scrollLine" : "522"
+    },
+    "read_only" : false,
+    "read_only_alternatives" : [
+    ],
+    "relative_order" : 1,
+    "source_on_save" : false,
+    "source_window" : "",
+    "type" : "r_source"
+}
