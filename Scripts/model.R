@@ -108,3 +108,11 @@ caret::confusionMatrix(data = class,
 ## teste ks
 ksTest <- plyr::revalue(teste$FRAUDE, c("X1" = "1", "X0" = "0"))
 InformationValue::ks_stat(as.numeric(as.character(ksTest)), predTRUE, returnKSTable = FALSE)
+
+
+#subir base teste escorada
+teste2 <- cbind(teste, pred[[2]])
+names(teste2)[names(teste2)=="pred[[2]]"] <- "score_predicao"
+names(teste2)
+
+write.csv(teste2, "C:\\Bases - Hackapan\\Scripts/base_teste_escorada.csv", row.names=FALSE)
